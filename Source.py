@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from datetime import datetime, timedelta
 import time
+from Session1 import G_RA_Al_Lo_Ai
 
 def loadDataZachary(fileName):
   """
@@ -74,3 +75,5 @@ def loadDataInfectious(fileName):
   #print(timestamp)
 
   return G, '1st hour of Infectious', mintime, maxtime
+
+egos_graph=G_RA_Al_Lo_Ai
